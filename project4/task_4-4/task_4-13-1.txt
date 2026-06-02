@@ -1,0 +1,15 @@
+a = input('Введите число: ')
+b = input('Введите число: ')
+c = input('Введите число: ')
+d = input('Введите число: ')
+
+if a<b:
+    min = a
+else:
+    min = b
+if c<min:
+    min = c
+if d<min:
+    min = d
+
+print(min)
